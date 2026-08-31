@@ -102,6 +102,8 @@ const Conference: IConference = {
   Handbook: '',
   SessionizeUrl: 'https://sessionize.com/ddd-melbourne-2027',
   SessionizeEditUrl: 'https://sessionize.com/app/speaker/',
+  SpeakerProposalTrainingUrl:
+    'https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=1Fl-EtxArEOMrZBBUn5pEueL76QDjFlPovH0AJau2g9UMEZHTU40OU1XQkNMVUoyN0RKU04wRlkyVi4u',
   PreviouslySubmittedTopics:
     'Agile, building great teams, UI design, UX, software testing, virtual reality, women in tech, web accessibility, open source software, workplace culture, mental health, unconscious bias, building engaged teams, self-employment tips, mentoring, Scrum, pair programming, bots, IoT, machine learning, neural networks, quantum encryption, security, reverse engineering, blockchain, Assembly language, automated deployments, mobile development, mobile test automation, Domain Driven Design, cloud native, architecture, microservices, serverless, service meshes, stream programming and Rx, APIs, GraphQL, actors, JavaScript, SPAs, TypeScript, authentication, React, UWP, Elm, HTML, HTTP protocol, Git, Docker and pointers',
 
