@@ -59,9 +59,11 @@ const CFPPage: NextPage = () => {
         <li>
           Running
           {!conference.SpeakerProposalTrainingUrl ? (
-            <span>online training sessions</span>
+            <span> online CFP training sessions </span>
           ) : (
-            <a href="conference.SpeakerProposalTrainingUrl">online training sessions</a>
+            <strong>
+              <a href="conference.SpeakerProposalTrainingUrl"> online CFP training sessions </a>
+            </strong>
           )}
           on how to develop your great talk idea and write a compelling submission.
         </li>
