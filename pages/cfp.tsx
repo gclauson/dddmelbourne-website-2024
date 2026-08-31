@@ -57,14 +57,14 @@ const CFPPage: NextPage = () => {
           Encouraging submissions from <strong>multiple presenters as well as solo presenters.</strong>
         </li>
         <li>
-          Running
+          Running{' '}
           {!conference.SpeakerProposalTrainingUrl ? (
-            <span> online CFP training sessions </span>
+            <span>online CFP training sessions</span>
           ) : (
             <strong>
-              <a href="conference.SpeakerProposalTrainingUrl"> online CFP training sessions </a>
+              <a href={conference.SpeakerProposalTrainingUrl}>online CFP training sessions</a>
             </strong>
-          )}
+          )}{' '}
           on how to develop your great talk idea and write a compelling submission.
         </li>
         <li>
